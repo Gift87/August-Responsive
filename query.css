@@ -1,0 +1,177 @@
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .top-question {
+        font-size: 1rem;
+    }
+
+    .headersss {
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+
+        position: relative;
+        margin: auto;
+
+    }
+
+    .thesis-question {
+        font-family: 'Inria Sans', sans-serif;
+
+        padding-bottom: ;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+
+    .thesis-question h2 {
+        font-size: 1.5rem;
+    }
+
+    .thesis-question h1 {
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+
+    .rightsss {
+        width: 100%;
+        margin: auto;
+
+        background: #796054;
+        height:200px;
+        overflow: hidden;
+    }
+
+    .leftsss {
+        width: 100%;
+        margin: auto;
+        background: #796054;
+        height: auto;
+    }
+
+    .whitebox {
+        color: whitesmoke;
+
+        position: relative;
+        top: 10px;
+
+    }
+
+    .august h1 {
+        font-size: 30px;
+        padding: 2%;
+    }
+
+    .bio-pic {
+        width: 100%;
+        position: relative;
+        left: 5px;
+        margin: auto;
+
+    }
+
+    .biosss-wrapper {
+        width: 100%;
+
+    }
+
+    .profilesss {
+        width: 100vw;
+        position: relative;
+        margin-bottom: 7%;
+        background-image: url('./images/august-photo.png');
+    }
+
+    .profile-text {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .progresss {
+        width: 170px;
+        margin: auto;
+        position: relative;
+        top: -37px;
+
+    }
+
+    .whitebox2 {
+        width: 100%;
+        position: relative;
+        background: #d36e2b;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 9%;
+    }
+    #haiiry-rightsss{
+
+    }
+    .problem-solver h1 {
+        font-size: 30px;
+        padding: 2%;
+    }
+    .type-headingsss{
+        font-size: 30px;
+        padding: 2%;
+    }
+    ul h5{
+        font-size:15px;
+    }
+    .haiiry-container{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .computer{
+       
+    }
+    .consultant-wrapper{
+        display:flex;
+        flex-direction:column;
+        margin-top:3rem;
+        font-size:1rem;
+        padding-bottom:1rem;
+        justify-content:center;
+        
+        
+    }
+    .border-left{
+        border:none;
+        padding-bottom:2%;
+    }
+    #border-bottom{
+        border-bottom:3px solid #d36e2b;
+    }
+    #consultant-wrapper-inner {
+      
+        margin-top:rem;
+        font-size:1.25rem;
+        padding-bottom:3rem;
+        justify-content:center;
+           
+         
+        }
+        .hire{
+            color:black;
+            margin-top:3%;
+            text-align:center;
+        }
+        .sticky-note-wrapper{
+            margin:auto;
+            width:600px;
+            font-size:1.2rem;
+           
+        }
+        form{
+             margin:auto;
+               width:400px;
+        }
+#mc_embed_signup{
+    margin:auto;
+    
+}
+
+       
+}

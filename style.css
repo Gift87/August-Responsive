@@ -1,0 +1,1297 @@
+/*==============Nav Menu==============*/
+nav{
+    padding:3rem;
+    
+    background-color:rgb(3, 11, 82);
+}
+#main_nav{
+    margin-left:38em;
+}
+.navbar-brand{
+    color:white;
+}
+
+.navbar-nav{
+    padding-left:10px;
+    padding-bottom:5px;
+   
+}
+a:link{
+    color:white;
+
+}
+.hero-container{
+    
+    margin-left:7rem;
+    
+}
+.hero-question-wrapper{
+    padding-top:10rem;
+}
+.time{
+    margin-top:4rem;
+    color:white;
+}
+
+ /* unvisited link */
+ .navbar-nav a:link {
+    color: rgb(228, 11, 11);
+    }
+    /* visited link */
+   .nav-link a:visited {
+    color: #8ebf42;
+    }
+    /* mouse over link */
+    a:hover {
+    color: #8ebf42;
+    }
+    /* selected link */
+    a:active {
+    color: #800000;
+    }
+/*==============Nav Menu End==============*/
+
+
+/*============== bio ===================*/
+.bio-wrapper{
+    border-radius: 20px;
+    background:red;
+    width:80%;
+    margin:auto;
+    margin-top:3em;
+}
+.bio-text{
+    font-family: 'Inria Sans', sans-serif;
+    font-size:1rem;
+    width:600px;
+    margin:auto;
+  
+}
+.avatar-background{
+    background:lightblue;
+    align-content:center;
+    margin:auto;
+    width:auto;
+}
+.avatar{
+    width:150px;
+}
+.bio-container{
+    display:flex;
+    margin:auto;
+}
+
+#paragraph-two{
+    padding-top:20px;
+}
+
+.mark{
+    margin:auto;
+    width:210px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 12px 1px;
+    grid-template-areas: ". . . ." "full full full full" ". . . .";
+  }
+  
+  .full { grid-area: full;
+background:#f87c2a;
+width:800px;
+margin:auto;
+ }
+
+/*============== bio End================*/
+
+/*================what we do ============*/
+.statement{
+    width:100vw;
+    background: rgb(223, 173, 126);
+    padding-top:37px;
+}
+/*================what we do end============*/
+
+
+
+/*============big ass image==============*/
+
+.big-ass-container{
+width:100%;
+z-index:1;
+
+}
+
+.big-ass-clock{
+display:cover;
+
+}
+.big-ass-wrapper{
+    background-image: url('/images/hi-def/2000px\ lime-clock.jpg');
+    height:500px;
+    width:100%;
+    background-size:cover;
+   display:cover;
+
+    
+}
+.burn{
+  height:auto;
+    /*background-image: url("/images/losing-money.png");*/
+    background-repeat:no-repeat;
+    overflow:hidden;
+    
+   z-index:-1;
+    position:relative;
+ 
+    
+}
+
+/*============big ass image end===========*/
+
+.section-title{
+    text-align:center;
+    font-size:3rem;
+    margin-top:270px;
+    margin-bottom:100px;
+}
+.looking{
+    margin:auto;
+}
+.looking-container{
+    display:flex;
+    position:relative;
+    flex-direction:row;
+    margin-bottom:70px;
+}
+.progresss{
+width:270px;
+margin:auto;
+position:relative;
+ top:-37px;
+
+
+}
+.looking-text{
+    padding-top:80px;
+}
+.grid-container {
+    border: 5px solid rgb(243, 69, 69);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px 12px;
+    grid-template-areas: "header header header header header header header header header header header" "left left left left left left right right right right right";
+  }
+  .bio-pic{
+    width:300px;
+    margin:auto;
+    position:relative;
+    left:100px;
+    overflow: hidden;
+  }
+  .reports-svg{
+      width:300px;
+  }
+  .biosss-wrapper{
+      margin-top:70px;
+  }
+  .biosss{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+  }
+  .types{
+     
+      width:100%;
+      display:flex;
+      padding-top:2%;
+  }
+  .services{
+      width:50%;
+  }
+  .type-heading {
+      text-align:center;
+      color:white;
+  }
+  .type-headerwrapper{
+width:80%;
+margin:auto;
+
+padding-bottom:1%;
+padding-top:3%;
+  }
+  .hire{
+      color:black;
+      margin-top:3%;
+      text-align:center;
+  }
+  li{
+      list-style: none;
+  }
+  .type-heading-sub{
+    text-align:center;
+    padding-bottom:3%;
+    color:rgb(3, 11, 82);
+}
+.profilesss{
+margin:auto;
+}
+.profile-text{
+padding-top:57px;
+}
+.white-text{
+    color: whitesmoke;
+    padding-bottom:2%;
+}
+.white-text-last{
+    color: whitesmoke;
+    padding-bottom:5%;
+}
+video{
+    padding-bottom:9%;
+}
+  .big-blue{
+      
+      width:100%;
+      padding-bottom:5%;
+  }
+  .big-blue-text {
+      color:black;
+      text-align:center;
+      width:100%;
+      justify-content:center;
+      padding:2rem;
+  }
+  .rightsss { 
+    width:100%;
+      margin:auto;
+      
+      background:#796054;
+      height:700px;
+      overflow: hidden;
+    }
+  .reports{
+      width:100px;
+  }
+  .leftsss {
+      width:100%;
+      
+      margin:auto;
+      background:#796054;
+      height:700px;
+     
+ }
+.servesss{
+    width:100%;
+    background-image: url('./images/services.jpg')
+}
+  .whitebox{
+     color:whitesmoke;
+      padding:9%;
+      margin:5%;
+      position:relative;
+      top:100px;
+      
+  }
+  #mc_embed_signup{
+margin:auto;
+margin-bottom:150px;
+
+  }
+  form{
+    background:#d36e2b;
+  }
+  .whitebox2{
+    width:100%;
+     position:relative;
+     background:#d36e2b;
+     flex-direction:row;
+     padding-left:20%;
+     padding-right:20%;
+     padding-top:5%;
+     padding-bottom:5%;
+     margin-top:9%;
+   }
+   .col-lg-6{
+width:50%;
+   }
+   .wtf{
+       width:300px;
+   }
+   .whitebox-container{
+       display:block;
+       flex-direction:row;
+       width:100%;
+       
+       
+   }
+   .haiiry-container{
+    display:flex;
+    flex-direction:row;
+   }
+   .type-headingsss{
+       color: white;
+       text-align:center;
+   
+   }
+   li h5{
+       
+       color: whitesmoke;
+   }
+   li{
+       text-align:center;
+       color:#000000;
+       line-height:50px;
+   }
+   .problem-solver h1{
+       color: white;
+       margin-bottom:10%;
+   }
+  .headersss {
+    
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    
+    position:relative;
+    margin:auto;
+   
+  }
+  .video-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .title { 
+      grid-area: title; 
+      text-align:center;
+      padding-top:7%;
+      border:5px dotted green;
+    }
+  
+  .process-svg { 
+      grid-area: process-svg; 
+      margin:auto;
+      border:5px dotted green;
+      
+      padding-left:20%;
+    }
+    .process{
+        width:100%;
+        border:solid 5px orange;
+        margin:auto;
+        
+    }
+ 
+  .question { 
+      grid-area: question;
+      padding-left:15%;
+      padding-right:15%;
+      padding-top:87px;
+      padding-bottom:87px;
+      border:5px dotted rgb(81, 0, 128);
+   
+    }
+  
+  #sub-title{
+      color:#f87c2a;
+  }
+  .computer{
+    width:100%;
+     opacity:.5;
+  }
+.consulting-services{
+    margin:auto;
+    display:block;
+    position:relative;
+}
+
+/*footer*/
+.footer{
+    background: rgb(3, 11, 82);
+    color:white;
+}
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+/*new code above*/
+
+
+
+.svg-top{
+    width:100%;
+    position:relative;
+    bottom:178px;
+    padding:0;
+    margin:0;
+}
+.first-section{
+    width:100%;
+   background-color:#e4d8a8;
+}
+
+.thesis-question{
+    font-family: 'Inria Sans', sans-serif;
+    font-size:2rem;
+    padding-bottom:5rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    text-align:center;
+}
+
+.who-are-we{
+background-color:#112B18;
+margin:0;
+padding-top:3rem;
+padding-bottom:3rem;
+width:100%;
+margin:auto;
+display:grid;
+place-items:center;
+
+}
+.green-contain{
+    display:inline-flex;
+    justify-content: center;
+    margin:auto;
+}
+.who-header{
+    font-size:2rem;
+    color:#C39542;
+    text-align:center;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+.who-paragraph{
+    font-family: 'Inria Sans', sans-serif;
+    color:#FFFFFF;
+    font-size:1.5rem;
+    padding-top:2rem;
+    padding-bottom:5rem;
+    padding-left:5rem;
+    padding-right:3rem;
+    text-align:left;
+}
+.mark-clock{
+    margin:auto;
+    width:600px;
+    position:relative;
+    margin-right:30px;
+   
+
+}
+.hands-on-deck{
+    
+    width:600px;
+}
+.who-text-container{
+    padding-top:6rem;
+}
+
+/*===============cards===================*/
+.help-you{
+    font-size:2rem;
+}
+.card-container-wrapper{
+   
+    background-color:#D8D7CE;
+}
+h1{
+    color:#44ffd1;
+}
+.card-container-wrapper h1{
+    padding-top:5rem;
+    color:#112B18;
+    text-align:center;
+  
+}
+.card-text{
+    font-family: 'Inria Sans', sans-serif;
+}
+.card-text li{
+    font-family: 'Inria Sans', sans-serif;
+}
+.inner{
+   
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin:auto;
+    border:red 2px solid;
+    justify-content: space-between;
+    padding-top:2rem;
+    padding-bottom:3rem;
+    padding:0;
+    
+}
+#three-cards{
+    width:10rem;
+    
+    
+}
+/*===============cards end ================*/
+
+
+
+/*=================video==================*/
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    opacity:10%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 3;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e7e5e4;
+    opacity: 0.2;
+    z-index: 1;
+  }
+  .thesis-question h2{
+    color:white;
+    
+
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('/images') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+      
+    }
+  }
+
+/*=================video end==============*/
+
+
+
+
+
+/*=============losing moneys===============*/
+.thesis-question h2{
+   color:white;
+   padding-top:2rem;
+
+}
+.flames{
+    opacity:40%;
+    display:contain;
+    width:200px;
+}
+/*=============losing moneys end============*/
+
+
+
+
+
+/*=============Help your business=====================*/
+.one-roof{
+    padding:0 25px;
+    margin-top:5rem;
+  color:#112B18;
+  text-align:center;
+
+}
+
+#how-can-we-help{
+  
+    margin-top:5rem;
+  color:#112B18;
+  text-align:center;
+  border:rgb(0, 153, 255) 10px dotted;
+ width:100%;
+ 
+    
+  
+  
+}
+.column-wrapper{
+    border:rgb(72, 255, 0) 10px dotted;  
+    margin:auto;
+    display:inline-flex;
+    justify-content:space-around;
+    width:80%;
+    display:inline-flex;
+}
+.sticky-note-wrapper{
+    margin:auto;
+    width:600px;
+    font-size:1.2rem;
+   
+}
+#no-box{
+
+}
+.border-left{
+    border-right:3px solid #d36e2b;
+}
+.sticky-note{
+    width:400px;
+}
+.consultant-wrapper{
+    display:flex;
+    margin-top:3rem;
+    font-size:1.25rem;
+    padding-bottom:5rem;
+    justify-content:center;
+    
+    
+}
+#consultant-wrapper-inner {
+      
+    margin-top:3rem;
+    font-size:1.25rem;
+    padding-bottom:3rem;
+    justify-content:center;
+        flex-direction:row;
+     
+    }
+
+.the-why-a-consultant-wrapper{
+    margin-top:2rem;
+}
+
+.para{
+    display:none;
+    }
+    .para:hover .showme {
+        display:block;
+    }
+    .column-pics{
+        width:200px;
+    }
+    #stuff {
+       
+    }
+    #hover {
+       
+        background-color:green;
+        margin-bottom:15px;
+    }
+    #hover:hover + #stuff {
+        opacity: 1.0;
+    }
+    div{transition:all 1s;}
+    .aaa:hover ~ #ccc {display:block;opacity:1; height:34;}
+    #ccc{opacity:0; color:red;}
+    .column-title{
+        font-size:16px;
+        margin-top:10px;
+    }
+/*===========Help your business =================*/
+
+
+/*================= millenial friends ==============*/
+.friends{
+    width:100%;
+}
+.find-help{
+    
+    justify-content:right;
+    float:right;
+   
+}
+
+button{
+width:200px;
+padding:15px;
+}
+/*================= millenial friends ==============*/
+
+
+
+
+/*=============PROCESS=================*/
+.how-it-works-container-wrapper{
+    background-color:#D8D7CE;
+}
+.process{
+    padding-top:4rem;
+    text-align:center;
+}
+.lil-sentence{
+    padding-top:2rem;
+}
+#h1-process{
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color:#D8D7CE;
+}
+/*=============PROCESS END=================*/
+
+
+
+
+
+
+/*=============CONTACT US=================*/
+
+.contact-container-wrapper{
+    background-color:rgb(3, 11, 82);;
+   
+    
+}
+.contact{
+    text-align:center;
+    color:#C39542;
+    padding-top:3rem;
+    
+}
+.white{
+    color:white;
+}
+.contact-text{
+  
+    font-size:1rem;
+    text-align:center;
+    padding-top:3rem;
+    padding-bottom:4rem;
+}
+.contact{
+    text-align:center;
+   
+}
+.contact-text{
+    width:200px;
+}
+.contact-text-wrapper{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+
+
+/*=============CONTACT US END =================*/
+
+/*============media queries===================*/
+
+@media (max-width: 575.98px) { 
+    /*BIG ASS IMAGE*/
+    .big-ass-wrapper{
+        background-image: url('/images/hi-def/edited-lime-clock.jpg');
+        height:500px;
+        width:100%;
+        background-size:cover;
+       display:cover;
+       background-repeat:no-repeat;
+    overflow:hidden;
+    
+        
+    }  
+    /*What we do*/
+
+.time {
+    font-size:.95rem;
+   
+    margin-bottom:rem;
+    width:320px;
+}  
+.hero-question-wrapper{
+  
+   
+}
+.hero-container{
+    margin-bottom:90px;
+   margin-left:30px;
+    
+    padding-top:0;
+    
+}
+.big-ass-wrapper{
+    background-image: url('/images/hi-def/edited-lime-clock.jpg');
+    height:auto;
+    width:100%;
+    background-size:cover;
+
+    
+}
+/*=========CARDS MEDIA=======*/
+
+.col-sm-12{
+   align-items:center;
+   width:100%;
+   
+  
+}
+
+.contact-text-wrapper{
+    display:flex;
+}
+.inner{
+    padding:3rem;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin:auto;
+    justify-content: space-between;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    width:100%;
+}
+#three-cards{
+   
+    width:100%;
+}
+.col-sm-12:nth-child(2){
+    width:100%;
+    padding-top:2rem;
+    padding-bottom:2.5rem;
+   
+}
+.col-sm-12:nth-child(3){
+    width:100%;
+    padding-top:2rem;
+    
+}
+.col-sm-12{
+width:500px;
+}
+/*--================LOSING MONEY=============================*/
+.thesis-question h2{
+    width:100%;
+    font-size:28px;
+    color:white;
+   opacity:100%;
+   
+}
+/*Who is Augusy*/
+.who-paragraph{
+    
+    font-size:1.35rem;
+}
+/*=======WHO WE ARE*/
+.who-are-we{
+    background-color:rgb(204, 111, 5);
+    margin:0;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    width:100%;
+    margin:auto;
+    
+    place-items:center;
+    
+    display:flex;
+    
+    }
+    .green-contain{
+        flex-direction:column;
+    }
+    /*HIRING A CONSULTANT*/
+    .one-roof h1{
+        font-size:1.35rem;
+    }
+    .consultant-wrapper{
+        display:flex;
+        width:100%;
+       
+        flex-direction:column;
+
+    }
+    #consultant-wrapper-inner {
+      width:100%;
+      margin:auto;
+    margin-top:3rem;
+    font-size:1.25rem;
+    padding-bottom:5rem;
+    justify-content:center;
+    
+        
+    }
+    /*how it works*/
+    .one-roof-two h1{
+        padding:25px 25px;
+        margin-top:5rem;
+      color:#112B18;
+      text-align:center;
+    }
+/*Contact us*/
+
+    .contact{
+        text-align:center;
+        
+        
+     
+    }
+    .contact-text{
+    
+    }
+    .contact-text-wrapper{
+        
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .big-ass-wrapper{
+        background-image: url('/images/hi-def/edited-lime-clock.jpg');
+        height:500px;
+        width:100%;
+        background-size:cover;
+       display:cover;
+       background-repeat:no-repeat;
+    overflow:hidden;
+    border:1 solid magenta;
+    }  
+    .time {
+        font-size:1rem;
+        margin-bottom:5rem;
+        width:420px;
+    }  
+
+    /*Who is Augusy*/
+.who-paragraph{
+   
+    font-size:1.35rem;
+}
+
+
+
+
+/*=======WHO WE ARE*/
+.who-are-we{
+    background-color:#112B18;
+    margin:0;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    width:100%;
+    margin:auto;
+    
+    place-items:center;
+    
+    display:flex;
+    
+    }
+    .green-contain{
+        flex-direction:column;
+    }
+    /*HIRING A CONSSULTANT*/
+    /*HIRING A CONSULTANT*/
+    .one-roof h1{
+        font-size:1.35rem;
+    }
+    .consultant-wrapper{
+        display:flex;
+        width:100%;
+       
+        flex-direction:column;
+
+    }
+    #consultant-wrapper-inner {
+      width:100%;
+      margin:auto;
+    margin-top:3rem;
+    font-size:1.25rem;
+    padding-bottom:5rem;
+    justify-content:center;
+    
+        
+    }
+    /*=========CARDS MEDIA=======*/
+
+.col-sm-12{
+    align-items:center;
+    width:100%;
+    
+   
+ }
+ 
+ .contact-text-wrapper{
+     display:flex;
+ }
+ .inner{
+     padding:3rem;
+     display:flex;
+     justify-content:center;
+     width:100%;
+     margin:auto;
+     justify-content: space-between;
+     display:flex;
+     flex-direction:column;
+     margin:auto;
+     width:100%;
+ }
+ #three-cards{
+     
+     width:100%;
+ }
+ .col-sm-12:nth-child(2){
+     width:100%;
+     padding-top:2rem;
+     padding-bottom:2.5rem;
+    
+ }
+ .col-sm-12:nth-child(3){
+     width:100%;
+     padding-top:2rem;
+     
+ }
+ .col-sm-12{
+ width:500px;
+ }
+ /*============ cards============*/
+
+
+/*=========help your business==========*/
+
+
+
+
+/*=========help your business end==========*/
+
+
+
+ /*--======What We Do=======================*/
+ .thesis-text{
+    font-family: 'Inria Sans', sans-serif;
+    font-size:1rem;
+    color:rgb(23, 34, 190);
+    text-align:center;
+}
+/*What we do*/
+
+.time {
+    font-size:.95rem;
+    
+    margin-bottom:4rem;
+    width:380px;
+}  
+.hero-question-wrapper{
+  
+    
+    
+}
+.hero-container{
+    margin-bottom:90px;
+   margin-left:30px;
+   
+    padding-top:0;
+    
+}
+.big-ass-wrapper{
+    background-image: url('/images/hi-def/edited-lime-clock.jpg');
+    height:auto;
+    width:100%;
+    background-size:cover;
+
+    
+}
+/*who is august*/
+.who-header{
+    font-size:2rem;
+    color:#C39542;
+    text-align:center;
+  
+}
+.who-paragraph{
+    font-family: 'Inria Sans', sans-serif;
+    color:#FFFFFF;
+    font-size:1rem;
+    padding-top:2rem;
+    padding-bottom:5rem;
+   
+    text-align:left;
+}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    .big-ass-wrapper{
+        background-image: url('/images/hi-def/edited-lime-clock.jpg');
+        height:400px;
+        width:100%;
+        background-size:cover;
+       display:cover;
+       background-repeat:no-repeat;
+    overflow:hidden;
+    border:1 solid magenta;
+    
+    } 
+    .time {
+        font-size:1rem;
+        margin-bottom:5rem;
+        width:320px;
+    } 
+       /*Who is Augusy*/
+.who-paragraph{
+    
+    font-size:1.35rem;
+}
+/*=======WHO WE ARE*/
+.who-are-we{
+    background-color:#112B18;
+    margin:0;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    width:100%;
+    margin:auto;
+    
+    place-items:center;
+   
+    display:flex;
+    
+    }
+    .green-contain{
+        flex-direction:column;
+    }
+    /*=========CARDS MEDIA=======*/
+
+.col-sm-12{
+    align-items:center;
+    width:100%;
+    
+   
+ }
+ 
+ .contact-text-wrapper{
+     display:flex;
+ }
+ .inner{
+     padding:3rem;
+     display:flex;
+     justify-content:center;
+     width:100%;
+     margin:auto;
+     justify-content: space-between;
+     display:flex;
+     flex-direction:column;
+     margin:auto;
+     width:100%;
+ }
+ #three-cards{
+    
+     width:100%;
+ }
+ .col-sm-12:nth-child(2){
+     width:100%;
+     padding-top:2rem;
+     padding-bottom:2.5rem;
+    
+ }
+ .col-sm-12:nth-child(3){
+     width:100%;
+     padding-top:2rem;
+     
+ }
+ .col-sm-12{
+ width:500px;
+ }
+ /*HIRING*/
+ /*HIRING A CONSULTANT*/
+ .one-roof h1{
+    font-size:1.35rem;
+}
+.consultant-wrapper{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+
+}
+#consultant-wrapper-inner {
+  width:100%;
+  margin:auto;
+margin-top:3rem;
+font-size:1rem;
+padding-bottom:5rem;
+justify-content:center;
+
+    
+}
+ /*--======What We Do=======================*/
+ .thesis-text{
+    font-family: 'Inria Sans', sans-serif;
+    font-size:1rem;
+   
+    
+    text-align:center;
+}
+/*What we do*/
+
+.time {
+    font-size:.95rem;
+  
+    margin-bottom:4rem;
+    width:380px;
+}  
+.hero-question-wrapper{
+  
+    
+   
+}
+.hero-container{
+    margin-bottom:90px;
+   margin-left:30px;
+  
+    padding-top:0;
+    
+}
+.big-ass-wrapper{
+    background-image: url('/images/hi-def/edited-lime-clock.jpg');
+    height:auto;
+    width:100%;
+    background-size:cover;
+
+    
+}
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
